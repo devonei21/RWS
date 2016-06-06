@@ -6,6 +6,7 @@
 body {
     background-color: #EDEFEF !important;
 }
+.top-banner {background: }
 section.top-menu {
     height: 70px;
     padding: 0px 50px 0px 50px;
@@ -25,7 +26,7 @@ section.top-section {
     display: inline-block;
 }
 .banner {
-    background: url('../img/u-full-width-container-bg.jpg') no-repeat 0 50%;
+    background: url('../img/header-bg.jpg') repeat-x;
     height: 128px;
     position: relative;
 }
