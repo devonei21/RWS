@@ -1,0 +1,468 @@
+/* Mockups for Usability Testing */
+
+/***************************
+ *      Allegis Group      *
+ ***************************/
+body {
+    background-color: #EDEFEF !important;
+}
+section.top-menu {
+    height: 70px;
+    padding: 0px 50px 0px 50px;
+    -webkit-box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    z-index: 999;
+}
+section.top-section {
+    padding: 30px 0px 30px 0px;
+}
+.logo-container {
+    display: inline-block;
+    padding-left: 30px;
+}
+.branding {
+    display: inline-block;
+}
+.banner {
+    background: url('../img/u-full-width-container-bg.jpg') no-repeat 0 50%;
+    height: 128px;
+    position: relative;
+}
+h1.headline {
+    font-size: 41px;
+    font-weight: 100;
+    color: #fff;
+    text-align: left;    
+    padding: 20px 26px; 
+}
+h2.input-titles {
+    font-weight: 200;
+    font-size: 20px;
+}
+.search-bar {
+    position: relative;
+}
+.refine-results {
+    display: inline-block;
+    background-color: #fff;
+    width: 100%;
+    padding: 0px 10px 20px 20px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(153,153,153,0.51);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(153,153,153,0.51);
+    box-shadow: 0px 0px 5px 0px rgba(153,153,153,0.51);
+}
+.refine-results ul {
+    list-style: none;
+    padding-left: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    color: #666666;
+}
+.refine-results h2 {
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+}
+.refine-results h4 {
+    padding-left: 9px;
+}
+.search-results {
+    padding: 15px;
+}
+.search-results h3 {
+    font-weight: 200;
+    font-size: 20px;
+    margin: 0;
+}
+
+.search-results h4 {
+    font-weight: 200;
+    font-size: 16px;
+}
+.results {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(153,153,153,0.51);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(153,153,153,0.51);
+    box-shadow: 0px 0px 5px 0px rgba(153,153,153,0.51);
+    margin-bottom: 100px;
+}
+.single-result {
+    display: inline-block;
+    background-color: #fff;
+    width: 100%;
+    padding: 0px 10px 20px 0px;
+    -webkit-box-shadow: 0px 0px 1px 0px rgba(153,153,153,0.51);
+    -moz-box-shadow: 0px 0px 1px 0px rgba(153,153,153,0.51);
+    box-shadow: 0px 0px 1px 0px rgba(153,153,153,0.51);
+}
+.job-information {
+    display: inline-block;
+    color: rgb(153, 153, 153);
+}
+.job-information h2 {
+    padding: 0px 0px 0px 0px;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+}
+.job-information strong {
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+}
+/* Bootstrap Overrides */
+.form-control {
+    height: 50px !important;
+    border-radius: 2px !important;
+}
+input[type="checkbox"] {
+    margin: 4px 10px 10px !important;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #999999;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.footer a {
+    color: #fff;
+}
+.footer a:hover {
+    color: #fff;
+}
+.count-checkboxes-wrapper {
+    text-align: center;
+}
+.numberCircle {
+    margin: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 5px;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    font: 24px Arial, sans-serif;
+}
+.popover {
+    color: #000;
+}
+.icon-wrapper {
+    display: inline-block;
+}
+.icon-wrapper span.glyphicon {
+    position: relative;
+    top: 7px;
+}
+
+/***********************
+*      Slide out       *
+***********************/
+nav {
+    width:150px;
+    padding:0 25px 0 25px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 9999;
+    top:0;
+    height:100%;
+    margin:0 0 0 -150px;
+    -webkit-transition: .5s ease-in;
+    -moz-transition: .5s ease-in;
+    -o-transition: .5s ease-in;
+    -ms-transition: .5s ease-in;
+    transition: .5s ease-in;  
+}
+nav.menushow .menu-btn {
+    -webkit-transform: rotate(45deg) !important;
+    -moz-transform: rotate(45deg) !important;
+    -o-transform: rotate(45deg) !important;
+    -ms-transform: rotate(45deg) !important;
+    transform: rotate(45deg) !important;
+}
+.menushow {
+    margin: 0;
+    box-shadow:0 0 50px 0 rgba(0,0,0,.5);
+}
+nav ul {
+    margin:60px 0 0 0;
+}
+nav a, .menu-btn a {
+    color:#EDEFEF;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    padding:10px 15px;
+    display: block;
+    -webkit-transition: .25s ease-in;
+    -moz-transition: .25s ease-in;
+    -o-transition: .25s ease-in;
+    -ms-transition: .25s ease-in;
+    transition: .25s ease-in;
+
+}
+nav a:hover {
+    background: rgba(255,255,255,.125);
+}
+.menu-btn {
+    position: absolute;
+    right: -35px;
+    top:8px;
+    -webkit-transition: .5s ease-in;
+    -moz-transition: .5s ease-in;
+    -o-transition: .5s ease-in;
+    -ms-transition: .5s ease-in;
+    transition: .5s ease-in;
+
+}
+.menu-btn a {
+    font-family: Arial;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    width:30px;
+    height:30px;
+    padding:3px;
+}
+.menu-btn a:hover {
+    background: none;
+}
+/* Buttons */
+#menu-toggle {
+    cursor: pointer;
+    border-color: #999999;
+    border-width: 2px;
+    color: #666666 !important;
+    font-size: 16px !important;
+    text-transform: none;
+    font-weight: normal !important;
+    box-shadow: none;
+    margin-top: 11px;
+}
+#menu-toggle:hover {
+    color: #333333 !important;
+    background-color: transparent !important;
+    border-color: #333333;
+}
+.u-btn--ghost {
+    display: inline-block;
+    background: transparent;
+    border: 1px solid #fff;
+}
+a.u-btn, button.u-btn, .u-btn {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    background: #FFF;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.1);
+    color: #fff !important;
+    display: inline-block;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+}
+.btn:hover, .btn:focus, .btn.focus {
+    color: #fff !important;
+}
+.btn-find-jobs {
+    color: #fff;
+    background-color: #FD9827;
+    text-transform: uppercase;
+    height: 50px;
+    border-radius: 2px !important;
+    position: relative;
+    top: -2px;
+    margin-left: 30px;
+}
+.btn-contact-me {
+    color: #fff;
+    background-color: #1A9BFC;
+    margin: 10px;
+    height: 40px;
+    width: 240px;
+    border-radius: 2px !important;
+}
+
+/* Checkbox */
+
+/* Checkmark style starts */
+@-moz-keyframes dothabottomcheck {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 50px;
+  }
+}
+@-webkit-keyframes dothabottomcheck {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 50px;
+  }
+}
+@keyframes dothabottomcheck {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 50px;
+  }
+}
+@keyframes dothatopcheck {
+  0% {
+    height: 0;
+  }
+  50% {
+    height: 0;
+  }
+  100% {
+    height: 120px;
+  }
+}
+@-webkit-keyframes dothatopcheck {
+  0% {
+    height: 0;
+  }
+  50% {
+    height: 0;
+  }
+  100% {
+    height: 120px;
+  }
+}
+@-moz-keyframes dothatopcheck {
+  0% {
+    height: 0;
+  }
+  50% {
+    height: 0;
+  }
+  100% {
+    height: 120px;
+  }
+}
+.single-result input[type=checkbox] {
+  display: none;
+}
+.single-result label {
+    margin-bottom: -15px !important;
+}
+.check-box {
+  transform: scale(0.3, 0.3);
+  -ms-transform: scale(0.3, 0.3);
+  -webkit-transform: scale(0.3, 0.3);
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  border: 10px solid #999;
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-transition: border-color ease 0.2s;
+  -o-transition: border-color ease 0.2s;
+  -webkit-transition: border-color ease 0.2s;
+  transition: border-color ease 0.2s;
+  cursor: pointer;
+}
+.check-box::before, .check-box::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  height: 0;
+  width: 20px;
+  background-color: #999;
+  display: inline-block;
+  -moz-transform-origin: left top;
+  -ms-transform-origin: left top;
+  -o-transform-origin: left top;
+  -webkit-transform-origin: left top;
+  transform-origin: left top;
+  border-radius: 5px;
+  content: ' ';
+  -webkit-transition: opacity ease .5;
+  -moz-transition: opacity ease .5;
+  transition: opacity ease .5;
+}
+.check-box::before {
+  top: 72px;
+  left: 41px;
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+.check-box::after {
+  top: 37px;
+  left: 5px;
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+input[type=checkbox]:checked + .check-box,
+.check-box.checked {
+  border-color: #888888;
+}
+input[type=checkbox]:checked + .check-box::after,
+.check-box.checked::after {
+  height: 50px;
+  -moz-animation: dothabottomcheck 0.2s ease 0s forwards;
+  -o-animation: dothabottomcheck 0.2s ease 0s forwards;
+  -webkit-animation: dothabottomcheck 0.2s ease 0s forwards;
+  animation: dothabottomcheck 0.2s ease 0s forwards;
+}
+input[type=checkbox]:checked + .check-box::before,
+.check-box.checked::before {
+  height: 120px;
+  -moz-animation: dothatopcheck 0.4s ease 0s forwards;
+  -o-animation: dothatopcheck 0.4s ease 0s forwards;
+  -webkit-animation: dothatopcheck 0.4s ease 0s forwards;
+  animation: dothatopcheck 0.4s ease 0s forwards;
+}
+
+/* Input Styles */
+.c-select-style {
+    background: #fafafa url("../img/select-arrow.png") no-repeat 96% 50% !important;
+    border-radius: 3px !important;
+    border: 1px solid #ccc !important;
+    overflow: hidden !important;
+    display: inline-block !important;
+    max-width: 180px !important;
+    -moz-appearance: window;
+    -webkit-appearance: none;
+}
