@@ -524,7 +524,7 @@ thead {
     font-weight: 400;
 }
 .slds-text-heading--label {
-    font-size: .75rem;
+    font-size: 12px;
     line-height: 1.25;
     text-transform: uppercase;
     letter-spacing: .0625em;
@@ -534,4 +534,24 @@ thead {
 .slds-table .slds-truncate {
     min-width: 3.25rem;
     max-width: 15rem;
+}
+.slds-table--cell-buffer tr>td:first-child, .slds-table--cell-buffer tr>th:first-child {
+    padding-left: 1.5rem;
+}
+.slds-table--bordered td, .slds-table--bordered th {
+    border-top: 1px solid #d8dde6;
+}
+.slds-table .slds-truncate {
+    max-width: 15rem;
+}
+.slds-truncate {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.slds-table td, .slds-table th {
+    padding: .5rem;
+    white-space: nowrap;
+    position: relative;
 }
