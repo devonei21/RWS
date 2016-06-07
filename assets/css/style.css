@@ -3,10 +3,38 @@
 /***************************
  *      Allegis Group      *
  ***************************/
-body {
-    background-color: #EDEFEF !important;
+html {
+    font: 100% "Salesforce Sans",Arial,sans-serif;
+ 
+    color: #16325c;
+    -webkit-tap-highlight-color: transparent;
 }
-.top-banner {background: }
+
+a {color: #0c8eff}
+a:hover {color: #00396b}
+
+.slds-m-around--medium {
+    margin: 1rem;
+}
+.slds-p-around--medium {
+    padding: 1rem;
+}
+
+h1 {font-size: 30px; font-weight: 300}
+h2 {font-size: 24px; font-weight: 300}
+h3 {font-size: 20px; font-weight: 300; text-transform: uppercase;}
+h4 {font-size: 16px; font-weight: 300; text-transform: uppercase;}
+h5 {font-size: 14px; font-weight:bold;}
+
+.list-item {padding: 20px 0; border-bottom: 1px solid #d8dde6;}
+.main-content__padding {margin: 25px 0}
+
+body {
+    background-color: #efefef !important;font-size: .875rem; 
+    background: 0 0;
+}
+.logo {}
+.top-banner {background: url(../img/branding-bg.jpg); min-height: 82px; padding: 15px 0 }
 section.top-menu {
     height: 70px;
     padding: 0px 50px 0px 50px;
@@ -18,13 +46,24 @@ section.top-menu {
 section.top-section {
     padding: 30px 0px 30px 0px;
 }
-.logo-container {
-    display: inline-block;
-    padding-left: 30px;
-}
-.branding {
-    display: inline-block;
-}
+
+
+.rws-card {background: #fff; border-bottom-left-radius:.25rem; border-bottom-right-radius: .25rem}
+.rws-card__container {margin: 10px 0;     border-radius: .25rem;
+    border: 1px solid #d8dde6;
+    box-shadow: 0 3px 5px #ddd;
+   
+    overflow: hidden;
+    background: #fff; }
+.rws-card__header {background: #00396b; color: #fff; text-transform:uppercase; font-weight: bold; font-size: 16px;padding: 10px; border-top-left-radius: .25rem; border-top-right-radius: .25rem}
+.rws-card__number {}
+.rws-card__labels {}
+
+.font-color--orange {color:#ff9900}
+.font-color--yellow {color: #ffcc00}
+.font-color--green {color: #66cc33}
+.font-color--blue {color: #0ca5cc;}
+
 .banner {
     background: url('../img/header-bg.jpg') repeat-x;
     height: 128px;
@@ -466,4 +505,33 @@ input[type=checkbox]:checked + .check-box::before,
     max-width: 180px !important;
     -moz-appearance: window;
     -webkit-appearance: none;
+}
+
+/* -- lightning styles -- */
+
+.slds-truncate {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.slds-table th {
+    font-weight: 400;
+}
+.slds-text-heading--label {
+    font-size: .75rem;
+    line-height: 1.25;
+    text-transform: uppercase;
+    letter-spacing: .0625em;
+    color: #54698d;
+}
+
+.slds-table .slds-truncate {
+    min-width: 3.25rem;
+    max-width: 15rem;
 }
